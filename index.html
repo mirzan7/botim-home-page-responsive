@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Botim - Your Communication Platform</title>
+  <link rel="stylesheet" href="styles.css"> <!-- You'll need to create a CSS file for styling -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Botim</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navabarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler-icon"></button>
+        </button>
+        <!-- <div class="logo">
+          <img src="logo.png" alt="Botim Logo">
+        </div> -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-row">
+                <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                <li class="nav-item"><a class="nav-link" href="#download">Download</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="hero">
+      <div class="container">
+        <h1>Welcome to Botim</h1>
+        <p>Your ultimate communication platform for seamless conversations</p>
+        <a href="#download" class="btn btn-primary btn-lg">Download Now</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Features Section -->
+  <section id="features" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center">Features</h2>
+      <div class="row">
+        <div  class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">HD Video Calls</h3>
+                    <p class="card-text">Experience crystal-clear video calls with your loved ones</p>
+                </div>
+            </div>
+        </div>
+        <div  class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">Secure Messaging</h3>
+                    <p class="card-text">Keep yourconversations private and secure with wnd to end  encryption.</p>
+                </div>
+            </div>
+        </div>
+      <!-- Add more features as needed -->
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="py-5">
+    <div class="container">
+      <h2 class="text-center">Pricing</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h3 class="card-title">Basic Plan</h3>
+                        <p class="card-text">Free</p>
+                        <ul class="list-unstyled">
+                            <li>HD Video Calls</li>
+                            <li>Secure Messaging</li>
+                            <!-- Add more features included in the basic plan -->
+                        </ul>
+                        <a href="#download" class="btn btn-primary">Get Started</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h3 class="card-title">Basic Plan</h3>
+                        <p class="card-text">Free</p>
+                        <ul class="list-unstyled">
+                            <li>HD Video Calls</li>
+                            <li>Secure Messaging</li>
+                            <!-- Add more features included in the basic plan -->
+                        </ul>
+                        <a href="#download" class="btn btn-primary">Get Started</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h3 class="card-title">Basic Plan</h3>
+                        <p class="card-text">Free</p>
+                        <ul class="list-unstyled">
+                            <li>HD Video Calls</li>
+                            <li>Secure Messaging</li>
+                            <!-- Add more features included in the basic plan -->
+                        </ul>
+                        <a href="#download" class="btn btn-primary">Get Started</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more pricing plans as needed -->
+        </div>
+      <!-- Add more pricing plans as needed -->
+    </div>
+  </section>
+
+  <!-- Download Section -->
+  <section id="download" class="bg-light py-5">
+    <div class="container">
+        <h2 class="text-center">Download</h2>
+        <p class="lead text-center">Download Botim now and start communicating with your friends and family</p>
+        <div class="text-center">
+            <a href="#" class="btn btn-primary btn-lg">Download Now</a>
+        </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="text-center">Contact Us</h2>
+        <p class="lead text-center">Have questions or feedback? Reach out to us!</p>
+        <form action="contact.php" method="POST">
+            <div class="form-group">
+                <input class="form-control" type="text" name="name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="email" name="email" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" name="message" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+        </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="logo.png" alt="Botim Logo" class="img-fluid">
+        </div>
+        <div class="col-md-6 text-right">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="#features" class="text-white">Features</a></li>
+            <li class="list-inline-item"><a href="#pricing" class="text-white">Pricing</a></li>
+            <li class="list-inline-item"><a href="#download" class="text-white">Download</a></li>
+            <li class="list-inline-item"><a href="#contact" class="text-white">Contact</a></li>
+          </ul>
+          <p>&copy; 2024 Botim. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const navbarToggler = document.querySelector(".navbar-toggler");
+      const navbarCollapse = document.querySelector(".navbar-collapse");
+  
+      navbarToggler.addEventListener("click", function() {
+        navbarCollapse.classList.toggle("show");
+      });
+    });
+  </script>
+  <!-- Scripts -->
+<!-- Bootstrap JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
